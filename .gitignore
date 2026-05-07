@@ -1,0 +1,22 @@
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+venv/
+env/
+
+# Secrets
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+
+# Generated patient artifacts
+central_backend_server/generated_patients/

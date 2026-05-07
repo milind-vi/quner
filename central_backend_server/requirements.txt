@@ -1,0 +1,12 @@
+openai
+mdextractor
+websockets
+python-dotenv
+
+# RAG dependencies (only needed when USE_RAG=1).
+# Comment these out for a slim openai-only install.
+llama-index
+llama-index-embeddings-huggingface
+llama-index-vector-stores-pinecone
+pinecone
+pinecone-client
